@@ -1,15 +1,13 @@
 /*************************************************************************************/
-/*                                                                                   */
-/*                            __                                              __     */
-/*                           /\ \                                            /\ \    */
-/*    __        __     ___   \ \ \____     __    __  __      ___     ___     \_\ \   */
-/*  /'_ `\    /'__`\  / __`\  \ \ '__`\  /'__`\ /\ \/\ \    / __`\ /' _ `\   /'_` \  */
-/* /\ \L\ \  /\  __/ /\ \L\ \  \ \ \L\ \/\  __/ \ \ \_\ \  /\ \L\ \/\ \/\ \ /\ \L\ \ */
-/* \ \____ \ \ \____\\ \____/   \ \_,__/\ \____\ \/`____ \ \ \____/\ \_\ \_\\ \___,_\*/
-/*  \/___L\ \ \/____/ \/___/     \/___/  \/____/  `/___/> \ \/___/  \/_/\/_/ \/__,_ /*/
-/*    /\____/                                        /\___/                          */
-/*    \_/__/                                         \/__/                           */
-/*                                                                                   */
+/*                                              __                                   */
+/*                                             /\ \                                  */
+/*    __        __     ___     ___      ___    \_\ \      __                         */
+/*  /'_ `\    /'__`\  / __`\ /' _ `\   / __`\  /'_` \   /'__`\                       */
+/* /\ \L\ \  /\  __/ /\ \L\ \/\ \/\ \ /\ \L\ \/\ \L\ \ /\  __/                       */
+/* \ \____ \ \ \____\\ \____/\ \_\ \_\\ \____/\ \___,_\\ \____\                      */
+/*  \/___L\ \ \/____/ \/___/  \/_/\/_/ \/___/  \/__,_ / \/____/                      */
+/*    /\____/                                                                        */
+/*    \_/__/                                                                         */
 /*************************************************************************************/
 /**
  * Black theme for reveal.js. This is the opposite of the 'white' theme.
@@ -134,11 +132,11 @@
 /* Variables                                                                  */
 /******************************************************************************/
 
-// Colours (GEOBEYOND Text Blues)
+// Colours (GEONODE Text Blues)
 $cBlueLight: #0878BE;
 $cBlueDark:  #0D5B90;
 
-// Colours (GEOBEYOND Footprint)
+// Colours (GEONODE Footprint)
 $cBlue:      #0060A0;
 $cGreen:     #467A1C;
 $cBlack:     #312D2E;
@@ -202,11 +200,11 @@ $h1_text_shadow:                  0  1px  0   darken(white, 12%),
                                   0  6px 10px transparentize(black, 0.75),
                                   0 20px 20px transparentize(black, 0.85);
 
-// GEOBEYOND Signature
-$geobeyond_sig:                        "img/logo_gn.png";
-$geobeyond_sig_width:                  image-width($geobeyond_sig);
-$geobeyond_sig_height:                 image-height($geobeyond_sig);
-$geobeyond_sig_margin:                 25px;
+// GEONODE Signature
+$geonode_sig:                        "img/logo_gn.png";
+$geonode_sig_width:                  image-width($geonode_sig);
+$geonode_sig_height:                 image-height($geonode_sig);
+$geonode_sig_margin:                 25px;
 /******************************************************************************/
 /******************************************************************************/
 /* General Styles                                                             */
@@ -371,10 +369,10 @@ html.end body {
 /******************************************************************************/
 /* Signature                                                                  */
 /******************************************************************************/
-  #geobeyond-signature {
-    display: block; width: $geobeyond_sig_width;  height: $geobeyond_sig_height;
-    position: fixed; left: $geobeyond_sig_margin; bottom: $geobeyond_sig_margin;
-    background: url($geobeyond_sig);
+  #geonode-signature {
+    display: block; width: $geonode_sig_width;  height: $geonode_sig_height;
+    position: fixed; left: $geonode_sig_margin; bottom: $geonode_sig_margin;
+    background: url($geonode_sig);
     z-index: 25;
     @include hide-text;
     opacity: 0.9;
