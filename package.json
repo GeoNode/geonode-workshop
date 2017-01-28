@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/geobeyond/geonode-workshop.git"
+    "url": "https://github.com/geonode/geonode-workshop.git"
   },
   "scripts": {
     "test": "grunt test"
