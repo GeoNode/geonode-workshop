@@ -48,6 +48,8 @@ The new file has to be listed as a new item in the JSON file `list.json`:
     },
 ```
 
+Change the `data-background` if you want to change the background image.
+
 ## How to publish online
 
 Open the gruntfile configuration `Gruntfile.coffee` and change the directory for publishing the current workshop in the `dest` properties:
