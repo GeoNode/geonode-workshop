@@ -2,6 +2,7 @@
 
 Override the base page by editing the HTML within the `template` folder:
 
+<!--
     {% extends "base.html" %}
     {% block extra_head %}
           <link href="{{ STATIC_URL }}css/site_base.css" rel="stylesheet"/>
@@ -14,6 +15,6 @@ Override the base page by editing the HTML within the `template` folder:
     </li>
     {% endcomment %}
     {% endblock %}
-
+-->
 
 Remove the comment and see what is going to happen to Tab menu!!
