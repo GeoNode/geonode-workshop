@@ -6,7 +6,7 @@ $ geonode createsuperuser
 # use username: 'geonode' and password: 'geonode'
 
 $ sudo geonode-updateip localhost:8001
-# update the address where the GeoNode instance is running
+# tell geonode which is its trusted address.
 ```
 
 **You have installed GeoNode! Congratulations!!!**
