@@ -11,6 +11,12 @@ $ gem update --system
 $ gem install compass
 ```
 
+Make sure Compass has been successfully installed. On Ubuntu machines you may need some system packages in order to install it
+
+```bash
+$ sudo apt-get install ruby-dev
+```
+
 ### Live presentation dependencies
 
 Install dependencies with [npm](https://www.npmjs.com/) and [bower](https://bower.io/):
