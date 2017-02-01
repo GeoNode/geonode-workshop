@@ -17,7 +17,11 @@ $ sudo apt-get update
 ```bash
 $ sudo apt-get install geonode
 # download of all required dependencies for installing GeoNode
+
+$ geonode loaddata initial_data
+$ geonode loaddata default_oauth_apps
+$ sudo service apache2 restart
 ```
 ---
 
-* The last command may create issues if your system "locale" is not correctly configured. Please see next slide for details.
+* The command 'sudo apt-get install geonode' may create issues if your system "locale" is not correctly configured. Please see next slide for details.
