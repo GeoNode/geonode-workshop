@@ -97,6 +97,12 @@
             }
         },
         {
+            "filename": "install-geonode-2.md",
+            "attr": {
+                "data-background": "css/img/bg.jpg"
+            }
+        },
+        {
             "filename": "setup-geonode-systemwide.md",
             "attr": {
                 "data-background": "css/img/bg.jpg"
