@@ -115,24 +115,6 @@
             }
         },
         {
-            "filename": "tricks-and-solution.md",
-            "attr": {
-                "data-background": "css/img/bg.jpg"
-            }
-        },
-        {
-            "filename": "tricks-and-solution-1.md",
-            "attr": {
-                "data-background": "css/img/bg.jpg"
-            }
-        },
-        {
-            "filename": "tricks-and-solution-2.md",
-            "attr": {
-                "data-background": "css/img/bg.jpg"
-            }
-        },
-        {
             "filename": "success.md",
             "attr": {
                 "data-background": "css/img/bg.jpg"
