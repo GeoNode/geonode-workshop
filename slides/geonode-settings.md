@@ -17,7 +17,7 @@ DEBUG = TEMPLATE_DEBUG = False
 DEBUG_STATIC = False
 
 SITENAME = 'GeoNode'
-SITEURL = 'http://localhost:8888/'
+SITEURL = 'http://localhost:8001/'
 
 ...
 ```
