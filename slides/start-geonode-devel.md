@@ -5,8 +5,7 @@
 Make migrations and migrate the model if something has gone wrong with:
 
 ```bash
-(geonode)$ python manage.py makemigrations
-(geonode)$ python manage.py migrate
+(geonode)$ python manage.py sync
 ```
 
 #### Run GeoNode application
