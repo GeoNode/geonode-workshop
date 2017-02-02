@@ -109,6 +109,30 @@
             }
         },
         {
+            "filename": "tricks-and-solution.md",
+            "attr": {
+                "data-background": "css/img/bg.jpg"
+            }
+        },
+        {
+            "filename": "tricks-and-solution-1.md",
+            "attr": {
+                "data-background": "css/img/bg.jpg"
+            }
+        },
+        {
+            "filename": "tricks-and-solution-2.md",
+            "attr": {
+                "data-background": "css/img/bg.jpg"
+            }
+        },
+        {
+            "filename": "tricks-and-solution-3.md",
+            "attr": {
+                "data-background": "css/img/bg.jpg"
+            }
+        },
+        {
             "filename": "open-geonode-in-a-browser.md",
             "attr": {
                 "data-background": "css/img/bg.jpg"

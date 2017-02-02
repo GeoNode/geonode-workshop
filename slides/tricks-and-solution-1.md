@@ -2,25 +2,23 @@
 
 **Hints and tricks**
 
-*Set the correct OAuth2 server FQDN to GeoServer*
+* *Set the correct OAuth2 server FQDN to GeoServer*
 
 ```bash
 $ sudo vi /usr/share/geoserver/data/security/filter/geonode-oauth2/config.xml
 # edit the configuration of GeoServer security for the oauth2 provider
 ```
-
-Change default with these values:
-
+* *Make sure it contains these values:*
 ```xml
 <!-- GeoNode accessTokenUri -->
-<accessTokenUri>http://localhost:8888/o/token/</accessTokenUri>
+<accessTokenUri>http://localhost/o/token/</accessTokenUri>
 <!-- GeoNode userAuthorizationUri -->
-<userAuthorizationUri>http://localhost:8888/o/authorize/</userAuthorizationUri>
+<userAuthorizationUri>http://localhost:8001/o/authorize/</userAuthorizationUri>
 <!-- GeoServer Public URL -->
-  <redirectUri>http://localhost:8888/geoserver</redirectUri>
+<redirectUri>http://localhost:8001/geoserver</redirectUri>
 <!-- GeoNode checkTokenEndpointUrl -->
-<checkTokenEndpointUrl>http://localhost:8888/api/o/v4/tokeninfo/</checkTokenEndpointUrl>
+<checkTokenEndpointUrl>http://localhost/api/o/v4/tokeninfo/</checkTokenEndpointUrl>
 <!-- GeoNode logoutUri -->
-<logoutUri>http://localhost:8888/account/logout/</logoutUri>
+<logoutUri>http://localhost:8001/account/logout/</logoutUri>
 ```
 
