@@ -95,3 +95,7 @@ Deploy on specific folder of github pages:
 ```bash
 $ grunt deploy
 ```
+
+## Data
+
+Data are distributed within an archive in a directory `data` together the presentation and this folder can be also mounted into the virtual machine if required.
