@@ -20,4 +20,4 @@ $ sudo apt-get install geonode
 ```
 ---
 
-* The command 'sudo apt-get install geonode' may create issues if your system "locale" is not correctly configured. Please see next slide for details.
+* The command `sudo apt-get install geonode` may create issues if your system `locale` is not correctly configured. Please see next slide for details.

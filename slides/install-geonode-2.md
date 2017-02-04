@@ -1,6 +1,6 @@
 ## Install GeoNode into Ubuntu
 
-* The command 'sudo apt-get install geonode' may create issues if your system "locale" is not correctly configured.
+* The command `sudo apt-get install geonode` may create issues if your system `locale` is not correctly configured.
 
 * In order to fix this, please follow the procedures below. **If everything went well, you can skip those passages**
 
