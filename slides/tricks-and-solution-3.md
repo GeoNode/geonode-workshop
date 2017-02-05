@@ -1,4 +1,4 @@
-## Don't panic!
+## Behind the magic
 
 **Hints and tricks**
 
