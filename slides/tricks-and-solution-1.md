@@ -14,7 +14,7 @@ $ sudo vi /usr/share/geoserver/data/security/filter/geonode-oauth2/config.xml
 <!-- GeoNode accessTokenUri -->
 <accessTokenUri>http://localhost/o/token/</accessTokenUri>
 <!-- GeoNode userAuthorizationUri -->
-<userAuthorizationUri>http://localhost:8001/o/authorize/</userAuthorizationUri>
+<userAuthorizationUri>http://localhost/o/authorize/</userAuthorizationUri>
 <!-- GeoServer Public URL -->
 <redirectUri>http://localhost:8001/geoserver</redirectUri>
 <!-- GeoNode checkTokenEndpointUrl -->
