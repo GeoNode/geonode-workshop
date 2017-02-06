@@ -1,11 +1,11 @@
 ## Start GeoNode for development
 
-#### Post setup for migrations
+#### Post setup for migrations and fixture
 
-Make migrations and migrate the model if something has gone wrong with:
+Make migrations and migrate the model if something has gone wrong with and load initial data:
 
 ```bash
-(geonode)$ python manage.py sync
+(geonode)$ paver sync
 ```
 
 #### Run GeoNode application
