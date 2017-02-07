@@ -12,7 +12,7 @@ $ vi site_index.html
 Change the main header with custom text
 
 ```python
-<h1>{% trans "Welcome" %} al GeoNode Workshop of FOSS4G-IT 2017</h1>
+<h1>Benvenuti al geonode Workshop del FOSS4G-IT 2017</h1>
 ```
 
 Restart this custom application and open it up in the browser:
