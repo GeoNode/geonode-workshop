@@ -19,12 +19,6 @@
             }
         },
         {
-            "filename": "ithaca.md",
-            "attr": {
-                "data-background": "css/img/bg.jpg"
-            }
-        },
-        {
             "filename": "geosolutions.html",
             "attr": {
                 "data-background": "css/img/bg.jpg"
@@ -74,6 +68,12 @@
     [
         {
             "filename": "whats-the-workshop-contents.md",
+            "attr": {
+                "data-background": "css/img/bg.jpg"
+            }
+        },
+        {
+            "filename": "setup-of-the-environment-offline.md",
             "attr": {
                 "data-background": "css/img/bg.jpg"
             }
