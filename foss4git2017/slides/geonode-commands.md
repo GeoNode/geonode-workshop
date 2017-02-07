@@ -1,5 +1,7 @@
 ## GeoNode commands
 
+*Commands are explained, we'd rather you did not execute them but learn and ask questions*
+
 **List** all available commands by typing in the shell:
 
 ```bash

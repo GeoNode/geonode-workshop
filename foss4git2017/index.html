@@ -63,12 +63,7 @@
 
                             
                                 
-    <section data-background="css/img/bg.jpg" data-markdown="slides/ithaca.md"></section>
-
-
-                            
-                                
-    <section data-background="css/img/bg.jpg" data-markdown="slides/gfdrr-opendri.md"></section>
+    <section data-background="css/img/bg.jpg" data-html="slides/geosolutions.html"></section>
 
 
                             
@@ -129,6 +124,11 @@
 
                             
                                 
+    <section data-background="css/img/bg.jpg" data-markdown="slides/setup-of-the-environment-offline.md"></section>
+
+
+                            
+                                
     <section data-background="css/img/bg.jpg" data-markdown="slides/setup-of-the-environment.md"></section>
 
 
@@ -144,17 +144,12 @@
 
                             
                                 
+    <section data-background="css/img/bg.jpg" data-markdown="slides/install-geonode-2.md"></section>
+
+
+                            
+                                
     <section data-background="css/img/bg.jpg" data-markdown="slides/setup-geonode-systemwide.md"></section>
-
-
-                            
-                                
-    <section data-background="css/img/bg.jpg" data-markdown="slides/open-geonode-in-a-browser.md"></section>
-
-
-                            
-                                
-    <section data-background="css/img/bg.jpg" data-markdown="slides/open-geonode-in-a-browser-1.md"></section>
 
 
                             
@@ -170,6 +165,21 @@
                             
                                 
     <section data-background="css/img/bg.jpg" data-markdown="slides/tricks-and-solution-2.md"></section>
+
+
+                            
+                                
+    <section data-background="css/img/bg.jpg" data-markdown="slides/tricks-and-solution-3.md"></section>
+
+
+                            
+                                
+    <section data-background="css/img/bg.jpg" data-markdown="slides/open-geonode-in-a-browser.md"></section>
+
+
+                            
+                                
+    <section data-background="css/img/bg.jpg" data-markdown="slides/open-geonode-in-a-browser-1.md"></section>
 
 
                             
@@ -428,10 +438,26 @@
           // Full list of configuration options available at:
           // https://github.com/hakimel/reveal.js#configuration
           Reveal.initialize({
+
+			// The "normal" size of the presentation, aspect ratio will be preserved
+			// when the presentation is scaled to fit different resolutions. Can be
+			// specified using percentage units.
+			width: 960,
+			height: 700,
+
+			// Factor of the display size that should remain empty around the content
+			margin: 0.1,
+
+			// Bounds for smallest/largest possible scale to apply to content
+			minScale: 0.2,
+			maxScale: 0.9,
+
+            slideNumber: true,
             controls: true,
             progress: true,
             history: true,
             center: true,
+            embedded: true,
 
             transition: 'slide', // none/fade/slide/convex/concave/zoom
 

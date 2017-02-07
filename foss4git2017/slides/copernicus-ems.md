@@ -1,2 +1,4 @@
 # Copernicus EMS
-TODO Screenshot
+
+
+![Copernicus ems](css/img/copernicus-ems.png)

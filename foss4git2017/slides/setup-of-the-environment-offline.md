@@ -6,19 +6,21 @@ Installation of minimal requirements from [GeoNode tutorials](http://docs.geonod
 
 - Download and install [Vagrant](http://docs.geonode.org/en/latest/tutorials/install_and_admin/vm_running_vagrant.html)
 
-- Setup of a VM with a Vagrantfile assuming you are on unix **starting from a Vagrant online image**:
+- Setup of a VM with a Vagrantfile assuming you are on unix **starting from a provided Vagrant BOX**:
 
 ```bash
-$ mkdir geonode && cd geonode && vagrant init ubuntu/xenial64
-# Create a working directory and initialize the vagrantfile within
+$ mkdir geonode && cd geonode
+$ vagrant box add geonode-ws.box --name ubuntu/geonode-ws
+$ vagrant init ubuntu/geonode-ws
 ```
 
 - Edit the *vagrantfile* for more memory (see issue [#2076](https://github.com/GeoNode/geonode/issues/2076)):
 
 ```bash
+config.ssh.username = "ubuntu"
+config.ssh.password = "ubuntu"
 config.vm.provider "virtualbox" do |vb|
     vb.memory = "6144"
 end
-# Uncomment the section related to memory settings and edit that to at least 6GB
 ```
 

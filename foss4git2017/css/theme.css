@@ -485,6 +485,16 @@ body {
 }
 
 /* line 216, source/theme.scss */
+.reveal .slides > section,
+.reveal .slides > section > section {
+  line-height: 1.3;
+  font-weight: inherit;
+  overflow-y: auto !important;
+  overflow-x: hidden !important;
+  height: 700px;
+}
+
+/* line 224, source/theme.scss */
 .reveal, .reveal p {
   font-family: "PT Sans", sans-serif;
   font-size: 34px;
@@ -494,14 +504,14 @@ body {
   letter-spacing: -0.02em;
 }
 
-/* line 225, source/theme.scss */
+/* line 233, source/theme.scss */
 ::selection {
   color: white;
   background: #82B919;
   text-shadow: none;
 }
 
-/* line 228, source/theme.scss */
+/* line 236, source/theme.scss */
 .reveal code {
   font-family: "Ubuntu Mono";
   font-size: 24px;
@@ -522,7 +532,7 @@ body {
   box-shadow: #312D2E 0 0 5px;
 }
 
-/* line 242, source/theme.scss */
+/* line 250, source/theme.scss */
 .reveal pre {
   -moz-box-shadow: none;
   -webkit-box-shadow: none;
@@ -530,7 +540,7 @@ body {
   width: 976px;
 }
 
-/* line 246, source/theme.scss */
+/* line 254, source/theme.scss */
 .reveal pre code {
   display: block;
   padding: 8px;
@@ -541,7 +551,7 @@ body {
 /******************************************************************************/
 /* Headings                                                                   */
 /******************************************************************************/
-/* line 255, source/theme.scss */
+/* line 263, source/theme.scss */
 .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5 {
   font-family: "Archivo Narrow", sans-serif;
   font-weight: 700;
@@ -552,34 +562,34 @@ body {
   text-transform: none;
 }
 
-/* line 264, source/theme.scss */
+/* line 272, source/theme.scss */
 .reveal h1 {
   text-shadow: 0 1px 0 #e0e0e0, 0 2px 0 #dbdbdb, 0 3px 0 #d6d6d6, 0 4px 0 #d1d1d1, 0 5px 0 #cccccc, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 2px 3px rgba(0, 0, 0, 0.3), 0 6px 5px rgba(0, 0, 0, 0.2), 0 6px 10px rgba(0, 0, 0, 0.25), 0 20px 20px rgba(0, 0, 0, 0.15);
   line-height: 1;
 }
 
-/* line 265, source/theme.scss */
+/* line 273, source/theme.scss */
 .reveal h1 {
   font-size: 109px;
 }
 
-/* line 266, source/theme.scss */
+/* line 274, source/theme.scss */
 .reveal h2 {
   font-size: 79px;
   line-height: 1;
 }
 
-/* line 267, source/theme.scss */
+/* line 275, source/theme.scss */
 .reveal h3 {
   font-size: 64px;
 }
 
-/* line 268, source/theme.scss */
+/* line 276, source/theme.scss */
 .reveal h4 {
   font-size: 49px;
 }
 
-/* line 269, source/theme.scss */
+/* line 277, source/theme.scss */
 .reveal h5 {
   font-size: 34px;
 }
@@ -588,13 +598,13 @@ body {
 /******************************************************************************/
 /* Links                                                                      */
 /******************************************************************************/
-/* line 274, source/theme.scss */
+/* line 282, source/theme.scss */
 .reveal a:not(.image) {
   color: #467A1C;
   text-decoration: none;
 }
 
-/* line 278, source/theme.scss */
+/* line 286, source/theme.scss */
 .reveal a:not(.image):hover {
   color: #0878BE;
 }
@@ -603,35 +613,35 @@ body {
 /******************************************************************************/
 /* Navigation Controls                                                        */
 /******************************************************************************/
-/* line 286, source/theme.scss */
+/* line 294, source/theme.scss */
 .reveal .controls div.navigate-left, .reveal .controls div.navigate-left.enabled {
   border-right-color: #0D5B90;
 }
-/* line 289, source/theme.scss */
+/* line 297, source/theme.scss */
 .reveal .controls div.navigate-right, .reveal .controls div.navigate-right.enabled {
   border-left-color: #0D5B90;
 }
-/* line 292, source/theme.scss */
+/* line 300, source/theme.scss */
 .reveal .controls div.navigate-up, .reveal .controls div.navigate-up.enabled {
   border-bottom-color: #0D5B90;
 }
-/* line 295, source/theme.scss */
+/* line 303, source/theme.scss */
 .reveal .controls div.navigate-down, .reveal .controls div.navigate-down.enabled {
   border-top-color: #0D5B90;
 }
-/* line 298, source/theme.scss */
+/* line 306, source/theme.scss */
 .reveal .controls div.navigate-left.enabled:hover {
   border-right-color: #467A1C;
 }
-/* line 301, source/theme.scss */
+/* line 309, source/theme.scss */
 .reveal .controls div.navigate-right.enabled:hover {
   border-left-color: #467A1C;
 }
-/* line 304, source/theme.scss */
+/* line 312, source/theme.scss */
 .reveal .controls div.navigate-up.enabled:hover {
   border-bottom-color: #467A1C;
 }
-/* line 307, source/theme.scss */
+/* line 315, source/theme.scss */
 .reveal .controls div.navigate-down.enabled:hover {
   border-top-color: #467A1C;
 }
@@ -640,14 +650,14 @@ body {
 /******************************************************************************/
 /* Progress Bar                                                               */
 /******************************************************************************/
-/* line 315, source/theme.scss */
+/* line 323, source/theme.scss */
 .reveal .progress {
   top: 0;
   height: 5px;
   background: #009EE1;
 }
 
-/* line 320, source/theme.scss */
+/* line 328, source/theme.scss */
 .reveal .progress span {
   background: #82B919;
   -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
@@ -660,7 +670,7 @@ body {
 /******************************************************************************/
 /* Slides                                                                     */
 /******************************************************************************/
-/* line 328, source/theme.scss */
+/* line 336, source/theme.scss */
 html.end body {
   background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHJhZGlhbEdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IjUwJSIgcj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzhlOWVhOCIvPjwvcmFkaWFsR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
   background-size: 100%;
@@ -668,13 +678,13 @@ html.end body {
   background-image: -webkit-radial-gradient(#ffffff, #8e9ea8);
   background-image: radial-gradient(#ffffff, #8e9ea8);
 }
-/* line 330, source/theme.scss */
+/* line 338, source/theme.scss */
 html.end body .reveal .progress,
 html.end body .reveal .controls {
   opacity: 0;
 }
 
-/* line 334, source/theme.scss */
+/* line 342, source/theme.scss */
 .reveal p {
   margin: 20px 0;
   line-height: 0.8;
@@ -684,7 +694,7 @@ html.end body .reveal .controls {
 /******************************************************************************/
 /* IMAGES
 /******************************************************************************/
-/* line 343, source/theme.scss */
+/* line 351, source/theme.scss */
 .reveal section img {
   margin: 0px 0px;
   background: rgba(255, 255, 255, 0.12);
@@ -692,20 +702,20 @@ html.end body .reveal .controls {
   box-shadow: 0 0 0px rgba(0, 0, 0, 0.15);
 }
 
-/* line 351, source/theme.scss */
+/* line 359, source/theme.scss */
 .reveal section img.plain {
   border: 0;
   box-shadow: none;
 }
 
-/* line 356, source/theme.scss */
+/* line 364, source/theme.scss */
 .reveal a img {
   -webkit-transition: all .15s linear;
   -moz-transition: all .15s linear;
   transition: all .15s linear;
 }
 
-/* line 362, source/theme.scss */
+/* line 370, source/theme.scss */
 .reveal a:hover img {
   background: rgba(255, 255, 255, 0.2);
   border-color: #13DAEC;
@@ -716,7 +726,7 @@ html.end body .reveal .controls {
 /******************************************************************************/
 /* Signature                                                                  */
 /******************************************************************************/
-/* line 372, source/theme.scss */
+/* line 380, source/theme.scss */
 #geonode-signature {
   display: block;
   width: 200px;
@@ -736,7 +746,7 @@ html.end body .reveal .controls {
   -webkit-transition: opacity 300ms;
   transition: opacity 300ms;
 }
-/* line 380, source/theme.scss */
+/* line 388, source/theme.scss */
 #geonode-signature:hover {
   opacity: 1;
 }

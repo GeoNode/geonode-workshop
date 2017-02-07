@@ -19,13 +19,7 @@
             }
         },
         {
-            "filename": "ithaca.md",
-            "attr": {
-                "data-background": "css/img/bg.jpg"
-            }
-        },
-        {
-            "filename": "gfdrr-opendri.md",
+            "filename": "geosolutions.html",
             "attr": {
                 "data-background": "css/img/bg.jpg"
             }
@@ -79,6 +73,12 @@
             }
         },
         {
+            "filename": "setup-of-the-environment-offline.md",
+            "attr": {
+                "data-background": "css/img/bg.jpg"
+            }
+        },
+        {
             "filename": "setup-of-the-environment.md",
             "attr": {
                 "data-background": "css/img/bg.jpg"
@@ -97,19 +97,13 @@
             }
         },
         {
+            "filename": "install-geonode-2.md",
+            "attr": {
+                "data-background": "css/img/bg.jpg"
+            }
+        },
+        {
             "filename": "setup-geonode-systemwide.md",
-            "attr": {
-                "data-background": "css/img/bg.jpg"
-            }
-        },
-        {
-            "filename": "open-geonode-in-a-browser.md",
-            "attr": {
-                "data-background": "css/img/bg.jpg"
-            }
-        },
-        {
-            "filename": "open-geonode-in-a-browser-1.md",
             "attr": {
                 "data-background": "css/img/bg.jpg"
             }
@@ -128,6 +122,24 @@
         },
         {
             "filename": "tricks-and-solution-2.md",
+            "attr": {
+                "data-background": "css/img/bg.jpg"
+            }
+        },
+        {
+            "filename": "tricks-and-solution-3.md",
+            "attr": {
+                "data-background": "css/img/bg.jpg"
+            }
+        },
+        {
+            "filename": "open-geonode-in-a-browser.md",
+            "attr": {
+                "data-background": "css/img/bg.jpg"
+            }
+        },
+        {
+            "filename": "open-geonode-in-a-browser-1.md",
             "attr": {
                 "data-background": "css/img/bg.jpg"
             }

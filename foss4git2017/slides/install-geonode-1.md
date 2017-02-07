@@ -18,3 +18,6 @@ $ sudo apt-get update
 $ sudo apt-get install geonode
 # download of all required dependencies for installing GeoNode
 ```
+---
+
+* The command `sudo apt-get install geonode` may create issues if your system `locale` is not correctly configured. Please see next slide for details.

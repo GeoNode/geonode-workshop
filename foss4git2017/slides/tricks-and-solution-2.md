@@ -1,29 +1,19 @@
-## Don't panic!
+## Behind the magic
 
 **Hints and tricks**
 
-*Change the settings of GeoServer Global Proxy Base and Default Authentication Provider*
+* *Set the correct OAuth2 Keys to GeoServer*
 
 ```bash
-$ sudo vi /usr/share/geoserver/data/security/auth/geonodeAuthProvider/config.xml
-# edit configuration of default GeoServer authentication provider
-$ sudo vi /usr/share/geoserver/data/global.xml
-# edit configuration of default GeoServer proxy base url
+$ sudo vi /usr/share/geoserver/data/security/filter/geonode-oauth2/config.xml
+# edit the configuration of GeoServer security for the oauth2 provider
 ```
-
-Change with these values:
+* *Make sure the clientId and clientSecret keys are the same of the GeoNode ones:*
 
 ```xml
-<baseUrl>http://localhost:8888/</baseUrl>
-<!-- base url of geonode web server -->
-<proxyBaseUrl>http://localhost:8888/</proxyBaseUrl>
-<!-- proxy base url of geonode web server -->
-```
-
-Restart the server:
-
-```bash
-$ sudo service tomcat7 restart
-# restart Tomcat
+<!-- GeoNode OAuth2 Client ID -->
+<cliendId>the_geonode_oauth_client_id</cliendId>
+<!-- GeoNode OAuth2 Client Secret -->
+<clientSecret>the_geonode_oauth_client_secret</clientSecret>
 ```
 
