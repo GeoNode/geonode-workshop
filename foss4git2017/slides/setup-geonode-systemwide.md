@@ -8,7 +8,7 @@ $ geonode createsuperuser
 $ sudo geonode-updateip localhost:8001
 # tell geonode which is its trusted address.
 ```
-* The 'geonode-updateip' command will automatically fix GeoNode and GeoServer settings using the correct host and port.
+* The `geonode-updateip` command will automatically fix GeoNode and GeoServer settings using the correct host and port.
 
 **You have installed GeoNode! Congratulations!!!**
 

@@ -1,13 +1,12 @@
 ## How to customize GeoNode
 
-Assuming we are using the current stable version **2.6** (*still on master until not released*) the customization can be started with the use of [GeoNode skeleton](https://github.com/GeoNode/geonode-project):
+Assuming we are using the current stable version **2.6** (*actually we are using the Testing one*) the customization can be started with the use of [GeoNode skeleton](https://github.com/GeoNode/geonode-project):
 
 Create a new project based on the **same** branch version of your GeoNode:
 
 ```bash
 (geonode)$ cd ..
-(geonode)$ django-admin.py startproject my_geonode --template=https://github.com/GeoNode/geonode-project/archive/master.zip -epy,rst
-#2.6 --> (geonode)$ django-admin.py startproject my_geonode --template=https://github.com/GeoNode/geonode-project/archive/2.6.zip -epy,rst
+(geonode)$ django-admin.py startproject my_geonode --template=https://github.com/GeoNode/geonode-project/archive/2.6.zip -epy,rst
 ```
 
 Start the project that you have just created:
@@ -15,7 +14,8 @@ Start the project that you have just created:
 ```bash
 (geonode)$ pip install -e my_geonode
 (geonode)$ cd my_geonode
-(geonode)$ python manage.py syncdb
+(geonode)$ python manage.py makemigrations
+(geonode)$ python manage.py migrate
 (geonode)$ python manage.py runserver 0.0.0.0:8000
 ```
 
