@@ -9,12 +9,10 @@ $ cd ~/development/geonode/my_geonode/my_geonode/templates/
 $ vi site_index.html
 ```
 
-Change the main header with custom text
+Change the main header `<h1>...</h1>` with custom text
 
 ```html
-<!--
-<h1>{% trans "Welcome" %} al GeoNode Workshop of FOSS4G-IT 2017</h1>
--->
+<h1>Benvenuto al GeoNode Workshop del FOSS4G-IT 2017</h1>
 ```
 
 Restart this custom application and open it up in the browser:
