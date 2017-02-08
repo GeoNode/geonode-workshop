@@ -14,7 +14,8 @@ Start the project that you have just created:
 ```bash
 (geonode)$ pip install -e my_geonode
 (geonode)$ cd my_geonode
-(geonode)$ python manage.py syncdb
+(geonode)$ python manage.py makemigrations
+(geonode)$ python manage.py migrate
 (geonode)$ python manage.py runserver 0.0.0.0:8000
 ```
 
