@@ -2,7 +2,7 @@
 
 **Hints and tricks**
 
-*Change the settings of GeoServer Global Proxy Base and Default Authentication Provider*
+*Check the settings of GeoServer Global Proxy Base and Default Authentication Provider*
 
 ```bash
 $ sudo vi /usr/share/geoserver/data/security/auth/geonodeAuthProvider/config.xml
@@ -17,9 +17,12 @@ Change with these values:
 <baseUrl>http://localhost:8001/</baseUrl>
 <!-- base url of geonode web server -->
 ```
+
+Leave the default for this vagrant configuration:
+
 ```xml
-<proxyBaseUrl>http://localhost:8001/</proxyBaseUrl>
-<!-- proxy base url of geonode web server -->
+<proxyBaseUrl>http://localhost:8080/geoserver</proxyBaseUrl>
+<!-- proxy base url of geonode web server - -->
 ```
 
 Restart the server:
