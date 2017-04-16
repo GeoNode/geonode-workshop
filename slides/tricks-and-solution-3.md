@@ -21,8 +21,9 @@ Change with these values:
 Leave the default for this vagrant configuration:
 
 ```xml
-<proxyBaseUrl>http://localhost:8080/geoserver</proxyBaseUrl>
-<!-- proxy base url of geonode web server - -->
+<proxyBaseUrl>http://localhost:80/geoserver</proxyBaseUrl>
+<!-- proxy base url of geonode web server -->
+<!-- set the port to 8080 if you are forwarding that to the host -->
 ```
 
 Restart the server:
