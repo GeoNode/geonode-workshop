@@ -1,0 +1,23 @@
+[
+  {
+  "filename": "index.md",
+    "attr": {
+    "data-background": "css/img/bg.jpg"
+    }
+  },{
+  "filename": "agenda.md",
+    "attr": {
+    "data-background": "css/img/bg.jpg"
+    }
+  },[{
+    "filename": "gn_introduction/index.md",
+      "attr": {
+      "data-background": "css/img/bg.jpg"
+      }
+  }],{
+  "filename": "thanks.md",
+    "attr": {
+    "data-background": "css/img/bg.jpg"
+    }
+  }
+]
