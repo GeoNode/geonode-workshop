@@ -1,23 +1,108 @@
 [
-  {
-  "filename": "index.md",
-    "attr": {
-    "data-background": "css/img/bg.jpg"
+    {
+        "attr": {
+            "data-background": "css/img/bg.jpg"
+        },
+        "filename": "index.md"
+    },
+    {
+        "attr": {
+            "data-background": "css/img/bg.jpg"
+        },
+        "filename": "agenda.md"
+    },
+    [
+        {
+            "attr": {
+                "data-background": "css/img/bg.jpg"
+            },
+            "filename": "introduction/index.md"
+        }
+    ],
+    [
+        {
+            "attr": {
+                "data-background": "css/img/bg.jpg"
+            },
+            "filename": "ansible/index.md"
+        },
+        {
+            "attr": {
+                "data-background": "css/img/bg.jpg"
+            },
+            "filename": "ansible/vm.md"
+        },
+        {
+            "attr": {
+                "data-background": "css/img/bg.jpg"
+            },
+            "filename": "ansible/playbook.md"
+        },
+        {
+            "attr": {
+                "data-background": "css/img/bg.jpg"
+            },
+            "filename": "ansible/scaling.md"
+        }
+    ],
+    [
+        {
+            "attr": {
+                "data-background": "css/img/bg.jpg"
+            },
+            "filename": "docker/index.md"
+        },
+        {
+            "attr": {
+                "data-background": "css/img/bg.jpg"
+            },
+            "filename": "docker/components.md"
+        },
+        {
+            "attr": {
+                "data-background": "css/img/bg.jpg"
+            },
+            "filename": "docker/orchestration.md"
+        },
+        {
+            "attr": {
+                "data-background": "css/img/bg.jpg"
+            },
+            "filename": "docker/sod.md"
+        }
+    ],
+    [
+        {
+            "attr": {
+                "data-background": "css/img/bg.jpg"
+            },
+            "filename": "docker/scaling/rancher.md"
+        },
+        {
+            "attr": {
+                "data-background": "css/img/bg.jpg"
+            },
+            "filename": "docker/scaling/challenge.md"
+        }
+    ],
+    [
+        {
+            "attr": {
+                "data-background": "css/img/bg.jpg"
+            },
+            "filename": "deployment/ansible_vs_docker.md"
+        },
+        {
+            "attr": {
+                "data-background": "css/img/bg.jpg"
+            },
+            "filename": "deployment/future.md"
+        }
+    ],
+    {
+        "attr": {
+            "data-background": "css/img/bg.jpg"
+        },
+        "filename": "thanks.md"
     }
-  },{
-  "filename": "agenda.md",
-    "attr": {
-    "data-background": "css/img/bg.jpg"
-    }
-  },[{
-    "filename": "gn_introduction/index.md",
-      "attr": {
-      "data-background": "css/img/bg.jpg"
-      }
-  }],{
-  "filename": "thanks.md",
-    "attr": {
-    "data-background": "css/img/bg.jpg"
-    }
-  }
 ]
