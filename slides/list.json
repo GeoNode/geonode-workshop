@@ -76,20 +76,62 @@
             "attr": {
                 "data-background": "css/img/bg.jpg"
             },
-            "filename": "docker/index.md"
+            "filename": "docker/intro/benefits.md"
         },
         {
             "attr": {
                 "data-background": "css/img/bg.jpg"
             },
-            "filename": "docker/components.md"
+            "filename": "docker/intro/benefits-1.md"
+        }
+    ],
+    [
+        {
+            "attr": {
+                "data-background": "css/img/bg.jpg"
+            },
+            "filename": "docker/containerization/components.md"
         },
         {
             "attr": {
                 "data-background": "css/img/bg.jpg"
             },
-            "filename": "docker/orchestration.md"
+            "filename": "docker/containerization/data-configuration.md"
         },
+        {
+            "attr": {
+                "data-background": "css/img/bg.jpg"
+            },
+            "filename": "docker/containerization/repository.md"
+        }
+    ],
+    [
+        {
+            "attr": {
+                "data-background": "css/img/bg.jpg"
+            },
+            "filename": "docker/orchestration/compose.md"
+        },
+        {
+            "attr": {
+                "data-background": "css/img/bg.jpg"
+            },
+            "filename": "docker/orchestration/challenges.md"
+        },
+        {
+            "attr": {
+                "data-background": "css/img/bg.jpg"
+            },
+            "filename": "docker/orchestration/challenges-1.md"
+        },
+        {
+            "attr": {
+                "data-background": "css/img/bg.jpg"
+            },
+            "filename": "docker/orchestration/shortcuts.md"
+        }
+    ],
+    [
         {
             "attr": {
                 "data-background": "css/img/bg.jpg"
