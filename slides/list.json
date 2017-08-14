@@ -38,6 +38,12 @@
             },
             "filename": "introduction/ansible_intro_2.md"
         },
+        {
+            "attr": {
+                "data-background": "css/img/bg.jpg"
+            },
+            "filename": "introduction/docker.md"
+        }
     ],
     [
         {
