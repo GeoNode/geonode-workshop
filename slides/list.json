@@ -24,6 +24,32 @@
             "attr": {
                 "data-background": "css/img/bg.jpg"
             },
+            "filename": "introduction/ansible_docker_intro.md"
+        },
+        {
+            "attr": {
+                "data-background": "css/img/bg.jpg"
+            },
+            "filename": "introduction/ansible_intro_1.md"
+        },
+        {
+            "attr": {
+                "data-background": "css/img/bg.jpg"
+            },
+            "filename": "introduction/ansible_intro_2.md"
+        },
+        {
+            "attr": {
+                "data-background": "css/img/bg.jpg"
+            },
+            "filename": "introduction/docker.md"
+        }
+    ],
+    [
+        {
+            "attr": {
+                "data-background": "css/img/bg.jpg"
+            },
             "filename": "ansible/index.md"
         },
         {
