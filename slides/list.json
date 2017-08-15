@@ -186,6 +186,12 @@
             "attr": {
                 "data-background": "css/img/bg.jpg"
             },
+            "filename": "docker/scaling/scaling.md"
+        },
+        {
+            "attr": {
+                "data-background": "css/img/bg.jpg"
+            },
             "filename": "docker/scaling/rancher.md"
         },
         {
