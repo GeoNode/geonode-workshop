@@ -116,6 +116,12 @@
             "attr": {
                 "data-background": "css/img/bg.jpg"
             },
+            "filename": "docker/orchestration/compose-1.md"
+        },
+        {
+            "attr": {
+                "data-background": "css/img/bg.jpg"
+            },
             "filename": "docker/orchestration/challenges.md"
         },
         {

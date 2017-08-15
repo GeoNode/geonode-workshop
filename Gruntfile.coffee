@@ -105,7 +105,7 @@ module.exports = (grunt) ->
         buildcontrol:
 
             options:
-                dir: 'dist/foss4g2017/devops'
+                dir: 'dist'
                 commit: true
                 push: true
                 message: 'Built from %sourceCommit% on branch %sourceBranch%'
