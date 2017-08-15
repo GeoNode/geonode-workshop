@@ -1,5 +1,5 @@
 # GeoNode Introduction
 
-* What is GeoNode
+* What is GeoNode?
 * Main components
-* DevOps strategy
+* What I can do with GeoNode?
