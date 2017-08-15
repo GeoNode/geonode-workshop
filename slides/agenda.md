@@ -11,7 +11,5 @@
     * docker-compose orchestration
     * Separation of Duty on Docker hub
 * Scaling with container
-    * Rancher
-    * ???
 * Ansible vs Docker deployment
 * Next to come

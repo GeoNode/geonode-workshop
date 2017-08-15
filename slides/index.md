@@ -1,6 +1,7 @@
-# GeoNode Developers Workshop
+# Scaling my SDI
+## Containers or VMs?
 
-## Cambridge, 08/15/2017
+#### Boston, 08/15/2017
 
 ##### Francesco Bartoli - Geobeyond Srl
 [![Geobeyond](css/img/gb-logo.png)](http://www.geobeyond.it)

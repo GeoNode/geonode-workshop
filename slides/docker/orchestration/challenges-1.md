@@ -22,4 +22,4 @@ export DOCKERHOST=${DOCKER_HOST} \
 && docker-compose up --build
 ```
 
-- It can also be used to get the **internal NGINX** address for the configuration of GeoNode *accessTokenUri* and *checkTokenEndpointUrl* of GeoServer. See more on our [documentation]()
+- It can also be used to get the **internal NGINX** address for the configuration of GeoNode *accessTokenUri* and *checkTokenEndpointUrl* of GeoServer. See more on our [documentation](http://docs.geonode.org/en/master/tutorials/admin/geoserver_geonode_security/index.html#geoserver-geonode-aa)

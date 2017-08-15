@@ -45,4 +45,9 @@ volumes:
 ```
 
 * Part of the GeoNode source code
-* Full support of any OS (Linux, Mac Os, Windows) and Cloud provider almost finished! 
+* Full support of any OS (Linux, Mac Os, Windows) and Cloud provider almost finished!
+* As simple as possible to have GeoNode up and running
+
+```
+docker-compose up -d
+```
