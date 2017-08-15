@@ -3,7 +3,7 @@
 * `app_name` - GeoNode project name (default: `my_geonode`)
 * `github_user` - GitHub username that owns the project (default: `GeoNode`)
 * `repo_name` - GitHub repository name (defaults to `app_name`: `my_geonode`)
-* `code_repository` - URL to the Code Repository (default: `https://github.com/{{ github_user }}/{{ app_name }}.git`)
+* `code_repository` - URL to the Code Repository
 * `branch_name` - Git branch to use for deployment (default: `master`)
 
 The `app_name` variable will be used to set the database names and credentials. You can override this behavior with the following variables:
@@ -13,6 +13,3 @@ The `app_name` variable will be used to set the database names and credentials. 
 * `db_password` - Database password
 * `db_user` - Database user
 
-You can also change the war used to deploy geoserver with the following variable.
-
-* `geoserver_url` - GeoServer war URL (default: `http://build.geonode.org/geoserver/latest/geoserver.war`)
