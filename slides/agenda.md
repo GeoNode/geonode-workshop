@@ -4,9 +4,9 @@
 * Ansible & Docker introduction
 * Ansible installation
     * Virtual Machine Management
+    * Ansible Playbooks and Roles
     * Ansible Galaxy
-    * Ansible Role and Variables
-    * Playbook overview
+    * GeoNode playbook overview
 	* Scaling with VMs
 * Docker installation
     * Containerization for components
