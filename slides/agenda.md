@@ -6,7 +6,7 @@
     * Virtual Machine Management
     * Ansible Playbooks and Roles
     * Ansible Galaxy
-    * GeoNode playbook overview
+    * GeoNode Playbook, Roles and Variables
 	* Scaling with VMs
 * Docker installation
     * Containerization for components

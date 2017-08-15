@@ -10,3 +10,9 @@
     roles:
         - { role: GeoNode.geonode }
 ```
+
+To install with the above `playbook.yml`:
+
+```bash
+$ ansible-playbook playbook.yml --ask-sudo-pass
+```
