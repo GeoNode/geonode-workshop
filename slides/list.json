@@ -17,6 +17,42 @@
                 "data-background": "css/img/bg.jpg"
             },
             "filename": "introduction/index.md"
+        },
+        {
+            "attr": {
+                "data-background": "css/img/geonode_basic_application.png"
+            },
+            "filename": "introduction/vanilla-geonode.md"
+        },
+        {
+            "attr": {
+                "data-background": "css/img/bg.jpg"
+            },
+            "filename": "introduction/whatisgn-1.md"
+        },
+        {
+            "attr": {
+                "data-background": "css/img/bg.jpg"
+            },
+            "filename": "introduction/whatisgn.md"
+        },
+        {
+            "attr": {
+                "data-background": "css/img/bg.jpg"
+            },
+            "filename": "introduction/geonode-big-picture.md"
+        },
+        {
+            "attr": {
+                "data-background": "css/img/bg.jpg"
+            },
+           "filename": "introduction/what-can-i-do-with-geonode.html"
+        },
+        {
+            "attr": {
+                "data-background": "css/img/bg.jpg"
+            },
+            "filename": "introduction/what-can-i-do-with-geonode.md"
         }
     ],
     [
