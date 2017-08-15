@@ -93,11 +93,11 @@ module.exports = (grunt) ->
                         'css/img/**'
                         'css/fonts/**'
                     ]
-                    dest: 'dist'
+                    dest: 'dist/foss4g2017/devops'
                 },{
                     expand: true
                     src: ['index.html']
-                    dest: 'dist'
+                    dest: 'dist/foss4g2017/devops'
                     filter: 'isFile'
                 }]
 
@@ -105,7 +105,7 @@ module.exports = (grunt) ->
         buildcontrol:
 
             options:
-                dir: 'dist'
+                dir: 'dist/foss4g2017/devops'
                 commit: true
                 push: true
                 message: 'Built from %sourceCommit% on branch %sourceBranch%'
