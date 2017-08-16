@@ -98,13 +98,73 @@
             "attr": {
                 "data-background": "css/img/bg.jpg"
             },
+            "filename": "ansible/ansible_1.md"
+        },
+        {
+            "attr": {
+                "data-background": "css/img/bg.jpg"
+            },
+            "filename": "ansible/ansible_2.md"
+        },
+        {
+            "attr": {
+                "data-background": "css/img/bg.jpg"
+            },
+            "filename": "ansible/ansible_installation.md"
+        },
+        {
+            "attr": {
+                "data-background": "css/img/bg.jpg"
+            },
+            "filename": "ansible/ansible_config.md"
+        },
+        {
+            "attr": {
+                "data-background": "css/img/bg.jpg"
+            },
             "filename": "ansible/playbook.md"
         },
         {
             "attr": {
                 "data-background": "css/img/bg.jpg"
             },
-            "filename": "ansible/scaling.md"
+            "filename": "ansible/galaxy.md"
+        },
+        {
+            "attr": {
+                "data-background": "css/img/bg.jpg"
+            },
+            "filename": "ansible/geonode-galaxy.md"
+        },
+        {
+            "attr": {
+                "data-background": "css/img/bg.jpg"
+            },
+            "filename": "ansible/geonode-role.md"
+        },
+        {
+            "attr": {
+                "data-background": "css/img/bg.jpg"
+            },
+            "filename": "ansible/geonode-variables.md"
+        },
+        {
+            "attr": {
+                "data-background": "css/img/bg.jpg"
+            },
+            "filename": "ansible/geonode-playbook.md"
+        },
+        {
+            "attr": {
+                "data-background": "css/img/bg.jpg"
+            },
+            "filename": "ansible/scaling_1.md"
+        },
+        {
+            "attr": {
+                "data-background": "css/img/bg.jpg"
+            },
+            "filename": "ansible/scaling_2.md"
         }
     ],
     [
