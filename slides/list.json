@@ -86,12 +86,6 @@
             "attr": {
                 "data-background": "css/img/bg.jpg"
             },
-            "filename": "ansible/index.md"
-        },
-        {
-            "attr": {
-                "data-background": "css/img/bg.jpg"
-            },
             "filename": "ansible/vm.md"
         },
         {
