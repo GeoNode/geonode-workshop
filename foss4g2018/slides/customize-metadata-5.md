@@ -11,9 +11,9 @@ vim my_geonode/templates/base/_resourcebase_info_panel.html
 ```python
     ...
     <dd><a href="/groups/group/{{ resource.group.name }}/activity/">{{ group }}</a> </dd>
-    {% endif %}
+    ...
 
-    <dt>{% trans "DOI" %}</dt>
+    <dt>DOI</dt>
     <dd>{{ resource.doi }}</dd>
 
   </dl>
