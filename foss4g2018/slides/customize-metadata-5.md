@@ -10,8 +10,6 @@ vim my_geonode/templates/base/_resourcebase_info_panel.html
 
 ```python
     ...
-    {% if resource.group %}
-    <dt>{% trans "Group" %}</dt>
     <dd><a href="/groups/group/{{ resource.group.name }}/activity/">{{ group }}</a> </dd>
     {% endif %}
 
